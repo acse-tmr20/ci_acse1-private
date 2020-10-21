@@ -1,5 +1,6 @@
 from .constants import * # noqa
 from .functions1 import * # noqa
+from .trig_functions import * # noqa
 
 from pkg_resources import get_distribution, DistributionNotFound
 try:
