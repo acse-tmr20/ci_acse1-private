@@ -25,7 +25,7 @@ class TestSimpleFunctions(object):
         '''Test our factorial function'''
         answer = factorial(number)
         assert answer == expected
-    
+
     def test_cos(self):
         my_cos = approx_cos(np.pi/4)
         assert np.isclose(my_cos, np.cos(np.pi/4), atol=1e-6)
